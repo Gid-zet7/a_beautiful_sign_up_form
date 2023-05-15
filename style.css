@@ -335,3 +335,33 @@ input:focus:invalid {
 .error.active {
     padding: 0.3em;
 }
+
+
+@media screen and (max-width: 1112px) {
+    .form-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 65%;
+    }
+
+    .fields>h1 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 8rem;
+        padding: 1em 1.5em;
+    }
+
+    .bg-img {
+        margin-bottom: 1rem;
+    }
+
+    input {
+        font-size: 1rem;
+    }
+
+}
