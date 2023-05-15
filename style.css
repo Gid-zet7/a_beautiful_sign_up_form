@@ -296,10 +296,42 @@ button:focus {
 }
 
 
-
-
 #sign-inBtn {
     background-image: none;
     background-color: #fff;
     color: #000;
+}
+
+/* FORM VALIDATION */
+
+/* input:valid {
+    border-color: #7ce254;
+    background-color: rgb(237, 255, 221);
+} */
+
+
+input:invalid {
+    border-color: rgb(255, 86, 86);
+    background-color: #fdd;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: rgb(253, 77, 77);
+    border-radius: 0 0 5px 5px;
+
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
 }
