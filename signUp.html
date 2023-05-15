@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Bruno+Ace&family=Prata&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Sign up </title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="form-content">
+            <div class="bg-img">
+                <h1>A Beautiful Sign up Form</h1>
+            </div>
+            <div class="form">
+                <form action="#" novalidate>
+                    <div class="fields">
+                        <h1>Sign up</h1>
+                        <div class="name field">
+                            <label for="name">Full Name</label>
+                            <input type="text" name="name" id="name" placeholder="John Doe">
+                        </div>
+
+                        <div class="email field">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="mail" placeholder="John Doe@example.com" required
+                                minlength="8">
+                            <span class="error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="username field">
+                            <label for="Username">username</label>
+                            <input type="text" name="Username" id="username" placeholder="Username...">
+                        </div>
+
+                        <div class="password field">
+                            <label for="password">Password**</label>
+                            <input type="password" name="password" id="password" placeholder="enter your password..."
+                                required minlength="10">
+                            <span class="error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="repeatpass field">
+                            <label for="repeat">Repeat password**</label>
+                            <input type="password" name="repeat" id="repeat" placeholder="repeat your password..."
+                                required minlength="10">
+                            <span class="error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="checkbox-field">
+
+                            <input type="checkbox" name="" id="checkbox" value="true">
+                            <label for="name">I agree to the Terms of User</label>
+                        </div>
+
+
+                        <button type="submit">Sign up</button>
+                        <p class="para">Already have an account? <a href="signIn.html">Sign in</a></p>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
