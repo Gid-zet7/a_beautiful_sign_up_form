@@ -166,7 +166,7 @@ table {
     justify-content: center;
     align-items: center;
     width: clamp(23rem, 80vw, 80rem);
-    height: clamp(10rem, 70vh, 50rem);
+    height: clamp(35rem, 70vh, 50rem);
 
 }
 
@@ -184,6 +184,7 @@ table {
 
 form {
     width: 100%;
+    height: 100%;
 }
 
 .form {
@@ -370,6 +371,10 @@ input:focus:invalid {
 
     .para {
         margin-top: 1rem;
+    }
+
+    .content {
+        height: clamp(43rem, 100vh, 50rem);
     }
 
 }
